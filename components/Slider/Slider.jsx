@@ -99,7 +99,6 @@ function Scene() {
 
   function scrollingStarted() {
     isScrolling = true
-    console.log('scrolling started')
     const view = document.querySelector(`.${styles.view}`)
     const splitTitle = new SplitText(view, {
       type: 'chars, words, lines',
@@ -245,6 +244,7 @@ function Scene() {
             link={project.link}
             groupRef={groupRef}
             idx={i}
+            key={i}
           />
         )
       })}
