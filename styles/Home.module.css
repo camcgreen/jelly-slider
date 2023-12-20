@@ -2,3 +2,17 @@
   width: 100vw;
   height: 100svh;
 }
+
+.header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100px;
+  padding-left: 32px;
+  padding-top: 32px;
+}
+
+.header img {
+  width: 28px;
+}
